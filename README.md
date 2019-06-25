@@ -16,7 +16,7 @@ and persists this information in a databse.
 
 # Usage
 
-1.) Assuming POSTGRE SQL and Docker are installed, run `psql -h localhost -U postgres -W host_agent -f init.sql` to run `init.sql`.
+1.) Assuming POSTGRE SQL and Docker are installed, run `psql -h localhost -U postgres -W host_agent -f init.sql` to run `init.sql`. Make sure Docker is running first before running the above command.
 
 2.) To run `host_info.sh` use `bash host_info.sh psql_host psql_port db_name psql_user psql_password` where `psql_host`, `psql_port`, `db_name`, `psql_user`, `psql_password` are replaced with their respective values.
 
