@@ -20,7 +20,7 @@ and persists this information in a databse.
 
 2.) To run `host_info.sh` use `bash host_info.sh psql_host psql_port db_name psql_user psql_password` where `psql_host`, `psql_port`, `db_name`, `psql_user`, `psql_password` are replaced with their respective values.
 
-3.) To run `host_usage.sh` use `bash host_usage.sh psql_host psql_port db_name psql_user psql_password` and replace the same fields mentioned above with their respective values.
+3.) To run `host_usage.sh` use `bash host_usage.sh psql_host psql_port db_name psql_user psql_password` and replace the same fields mentioned in 2.) with their respective values.
 
 4.) Crontab setup. Use `* * * * * /home/centos/dev/jrvs/bootcamp/host_agent/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log`
 
